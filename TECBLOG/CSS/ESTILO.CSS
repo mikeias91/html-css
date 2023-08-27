@@ -1,0 +1,145 @@
+/*limpar formatações padorões*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{ 
+  font-size: 1em;
+  font-family: "trebuchet MS",helvetica ,sans-serif;
+  background: #e6e6e6;
+
+}
+
+/*****Layout*****/
+
+#area-cabeçalho{
+  background-color: #f7b600;
+  text-align: center ;
+  padding: 15px;
+}
+
+#area-logo, #area-menu{ 
+  padding: 10px;
+}
+
+#area-principal{
+  
+  width: 920px; /*largura*/
+  margin: auto; /*ccentralizar a caixa div */
+  padding: 15px; /*distanciar mais a area principal*/
+
+  
+
+}
+
+
+.postagem-lateral{
+  font-size: 0.8em;
+  padding: 5px;
+  /*border-bottom: 1px dotted #ccc ;*/
+
+
+}
+
+
+#rodape{
+  text-align: center ;
+  clear: both;/*serve p/ remorver o fluxos de elementos flutuantes*/
+  padding: 15px;
+
+  background: #ccc
+  ;
+}
+
+
+
+
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px ;/*espaçamento inferior descolar mais um pouco onde vai , leia mais*/
+  background: white;
+ 
+
+}
+
+.conteudo-lateral{
+  background: white;
+  padding:10px ;/*para espaçamentos*/
+  margin-bottom: 20px;
+  
+} 
+
+
+
+
+
+
+#area-postagens{
+  width:660px;
+  float: left; /*movimenta as caixas ´para os lados tbm*/
+}
+
+#area-lateral{
+  
+   width: 240px;
+ float: left ; /* movimenta a caixa para os lados*/
+ margin-left: 15px;
+}
+
+/***** FORMATAÇÃO DO MENU ******/
+
+a{text-decoration: none;}/*tira os anderlaines*/
+
+
+a:link ,a:visited{ /*visua de links p/ o cliente*/
+  color: #f7b600;
+   
+}
+
+a:hover{ /*quando a seta passar por cima do link*/
+  text-decoration: underline;
+}
+
+
+#area-cabeçalho a:link ,#area-cabeçalho a:visited{ /*visua de links p/ o cliente*/
+  color: #fff;
+  padding: 8px 12px;
+}
+
+#area-cabeçalho a:hover{ /*quando a seta passar por cima do link*/
+  color: #f7b600;
+  background: #fff;
+  text-decoration: none;
+}
+
+
+/****** FORMATAÇÕES EM GERAL*****/
+
+h1{
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+H2{
+  color: #f7b600;
+}
+h3{
+  color: #565656;
+background:#f7b600 ;
+padding:5px ;}
+ 
+ 
+.branco{
+  color: white;
+}
+
+.data-postagem{
+font-size: 0.8em;
+border-bottom: 1px solid #f4f4f4;/*uma linha*/
+padding-bottom: 10px;
+margin-bottom: 10px;
+display:block ;/*cria um espaçamento com uma linha*/
+}
+
+
+

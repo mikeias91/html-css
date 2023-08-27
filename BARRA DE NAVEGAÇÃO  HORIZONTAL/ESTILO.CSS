@@ -1,0 +1,176 @@
+/*barra de navegação vertical
+ul{
+
+ /* list-style-type: none; /*serve para tirar os potihos das listas*/
+/*  margin:0 ;/*margens aplicadas*/
+/*  padding:0 ;/*espaçamento interno
+}
+ 
+li{
+ /* padding-left: 20px;/*coloca para os lados*/
+/* padding: 5px 20px;
+  padding-left: 20px;/*aumeta e diminue o tamanho da caixa*/
+ /* background: url(CSS3/imgens/seta.png) no-repeat left center; }/*posso usar a seta para direita , centro e esquerda
+} /* */
+
+/*
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  width: 200px;
+  height: 40px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-indent: 40px;
+  line-height: 40px;/*centralizar o dexto dentro da caixa altura da linha
+  background: #f7b600 url(CSS3/imgens/menu.png) no-repeat left bottom;
+}
+
+a:hover , .selecionado a {
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+ 
+  
+  #home #navegacao .home a,
+  #sobre  #navegacao .sobre a,
+  #serviços #navegacao .serviços a,
+  #noticias #navegacao .noticias a,
+  #contato #navegacao .contato a
+   {
+    background-position: right bottom;
+    background-color: #f99200;
+    color:#fff;
+  }
+
+
+
+.endereço{
+  background-color: #f99200;
+  margin: 40px;
+}
+***********************************************/
+
+/*BARRA DE NAVEGAÇÃO HORIZONTAL
+
+UL{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 720px;
+  background: #159cb0 url(IMAGENS/fundo-horizontal.png) repeat-x;
+float: left;
+}
+
+/*pra ficar a lista na horizontal
+
+ul li {
+  float: left;
+}
+
+ul a {
+ 
+  display: block;
+  padding: 0 2em;
+line-height: 2.2em;
+text-decoration: none;
+color:#fff;
+background: url(IMAGENS/divisor.png) repeat-y left top; 
+}
+
+ul .primeiro a {
+  background-color: none;
+
+}
+
+ul a:hover {
+  color: #085662;
+  background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre  #navegacao .sobre a,
+#serviços #navegacao .serviços a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a
+ { color: #085662;
+  background: #44cade;
+ }
+
+
+*************************************/
+
+body{
+  font-family: 'Trebuchet MS',helvetica, sans-serif;}
+
+  ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 720px;
+
+  }
+
+ul li{
+  float: left;/*faz com que as barras fiquem uma do lado da outra*/
+  background: url(IMAGENS/aba-direita.png) no-repeat top right;
+
+}
+
+li a {
+  display: block;
+  padding: 0 2em;
+  line-height: 3em;
+  text-decoration: none;
+  background: url(IMAGENS/aba-esquerda.png) no-repeat top left;
+  color: #fff;
+}
+
+ul a:hover {/*muda a cor quando passa a seta */
+  color:#894a1f
+
+
+ }
+
+ ul #atual {
+  background: url(IMAGENS/aba-direita-atual.png) no-repeat top left;
+
+ }
+
+
+  ul #atual a {
+  background: url(IMAGENS/aba-esquerda-atual.png) no-repeat top left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

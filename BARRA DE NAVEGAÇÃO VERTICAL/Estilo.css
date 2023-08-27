@@ -1,0 +1,59 @@
+/*barra de navegação vertical
+ul{
+
+ /* list-style-type: none; /*serve para tirar os potihos das listas*/
+/*  margin:0 ;/*margens aplicadas*/
+/*  padding:0 ;/*espaçamento interno
+}
+ 
+li{
+ /* padding-left: 20px;/*coloca para os lados*/
+/* padding: 5px 20px;
+  padding-left: 20px;/*aumeta e diminue o tamanho da caixa*/
+ /* background: url(CSS3/imgens/seta.png) no-repeat left center; }/*posso usar a seta para direita , centro e esquerda
+} /* */
+
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  width: 200px;
+  height: 40px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-indent: 40px;
+  line-height: 40px;/*centralizar o dexto dentro da caixa altura da linha*/
+  background: #f7b600 url(CSS3/imgens/menu.png) no-repeat left bottom;
+}
+
+a:hover , .selecionado a {
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+ 
+  
+  #home .home a,
+  #sobre .sobre a,
+  #serviços .serviços a,
+  #noticias .noticias a,
+  #contato .contato a
+   {
+    background-position: right bottom;
+    background-color: #f99200;
+    color:#fff;
+  }
+
+
+
+.endereço{
+  background-color: #f99200;
+  margin: 40px;
+}
+
+
